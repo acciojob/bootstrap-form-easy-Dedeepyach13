@@ -1,2 +1,38 @@
 
 /* Your CSS Code here. */
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    border: 1px solid #e5e5e5 !important;
+    padding: 25px 8px !important;
+}
+
+.form-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 28px !important;
+}
+
+.form-label {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.form-control,
+.form-select {
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.invalid-feedback {
+    font-size: 11px;
+}
+
+.btn {
+    border-radius: 3px;
+    font-size: 12px;
+}
